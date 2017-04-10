@@ -1,5 +1,7 @@
 /build
-/flickr_api.egg-info
+/dist
+/*.egg-info
 *.pyc
 *.egg
 /flickr_api/flickr_keys.py
+/venv

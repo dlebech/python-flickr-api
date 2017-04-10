@@ -9,7 +9,7 @@ except:
     raise RuntimeError("Could not read version file.")
 
 setup(
-    name="flickr_api",
+    name="flickr_api_dlebech",
     version=version_str,
     description="Python wrapper for the Flickr API",
     author="Alexis Mignon",

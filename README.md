@@ -49,3 +49,17 @@ Tutorial
 --------
 A short tutorial is available in the [Wiki section](https://github.com/alexis-mignon/python-flickr-api/wiki/Tutorial).
 
+Upload
+------
+
+So the original repo is very unmaintained and has a critical fix that is not
+live on pypi. My solution for now is to create a new package at
+`flickr_api_dlebech` (reflected in the package name).
+
+Uploaded like this:
+
+    $ virtualenv venv
+    $ source venv/bin/activate
+    $ pip install twine
+    $ python setup.py sdist bdist_wheel
+    $ twine upload dist/*
